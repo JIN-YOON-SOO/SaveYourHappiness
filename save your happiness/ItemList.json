@@ -1,0 +1,50 @@
+[
+        {
+            "name" : "옐로우 하트 유리병",
+            "imageName" : "jar_ver2.png",
+            "story" : "중앙에 하트가 있는 유리병",
+            "price" : 500,
+            "state" : false,
+            "category" : "jar"
+        },
+        {
+            "name" : "푸른 리본 유리병",
+            "imageName" : "blueribbonjar.png",
+            "story" : "푸른 리본을 맨 유리병이에요",
+            "price" : 10,
+            "state" : false,
+            "category" : "jar"
+        },
+        {
+            "name" : "체인 유리병",
+            "imageName" : "grayyellowchainjar.png",
+            "story" : "회색과 노란색의 완벽한 조화",
+            "price" : 10,
+            "state" : false,
+            "category" : "jar"
+        },
+        {
+            "name" : "많이 모아둔 메모지",
+            "imageName" : "memostack_ver2.png",
+            "story" : "차곡차곡 많이 모아둔 메모지",
+            "price" : 10,
+            "state" : false,
+            "category" : "memo"
+        },
+        {
+            "name" : "꽃 메모지",
+            "imageName" : "flowermemo.png",
+            "story" : "꽃 한송이를 드려요",
+            "price" : 10,
+            "state" : false,
+            "category" : "memo"
+        },
+        {
+            "name" : "곰돌이 메모지",
+            "imageName" : "bearmemo.png",
+            "story" : "왕관을 쓴 곰돌이 메모지에요!",
+            "price" : 100,
+            "state" : false,
+            "category" : "memo"
+        }
+]

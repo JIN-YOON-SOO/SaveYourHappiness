@@ -1,0 +1,6 @@
+framework module Pods_save_your_happinessTests {
+  umbrella header "Pods-save your happinessTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

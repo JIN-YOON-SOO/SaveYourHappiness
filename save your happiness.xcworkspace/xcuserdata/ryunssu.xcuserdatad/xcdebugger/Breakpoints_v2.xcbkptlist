@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6FD20350-304E-4FEE-93A8-B3FA0CEA3678"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "52C0F6A3-7646-43D4-B140-2B7AFBF6DCA8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/Charts/Source/Charts/Data/Implementations/Standard/BarChartData.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "BarChartData"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "52C0F6A3-7646-43D4-B140-2B7AFBF6DCA8 - 96922945c763b700"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Charts.BarChartData.init() -&gt; Charts.BarChartData"
+                  moduleName = "Charts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ryunssu/Desktop/save%20your%20happiness/Pods/Charts/Source/Charts/Data/Implementations/Standard/BarChartData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "52C0F6A3-7646-43D4-B140-2B7AFBF6DCA8 - cf53de0b279618c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Charts.BarChartData.init(dataSets: Swift.Optional&lt;Swift.Array&lt;Charts.IChartDataSet&gt;&gt;) -&gt; Charts.BarChartData"
+                  moduleName = "Charts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ryunssu/Desktop/save%20your%20happiness/Pods/Charts/Source/Charts/Data/Implementations/Standard/BarChartData.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

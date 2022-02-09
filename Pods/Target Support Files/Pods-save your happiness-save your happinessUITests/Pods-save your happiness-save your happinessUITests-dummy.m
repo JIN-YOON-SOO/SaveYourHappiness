@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_save_your_happiness_save_your_happinessUITests : NSObject
+@end
+@implementation PodsDummy_Pods_save_your_happiness_save_your_happinessUITests
+@end
