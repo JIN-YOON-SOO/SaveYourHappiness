@@ -68,6 +68,9 @@ class StoreViewController:UIViewController{
         return storeBackLabel
     }()
     
+    @objc func storeBackButtonTouch(_ sender: UIButton){
+            self.dismiss(animated: true, completion: nil)
+    }
     let StoreBackButton : UIButton = {
         let storeBackButton = UIButton()
         storeBackButton.translatesAutoresizingMaskIntoConstraints = false
@@ -75,8 +78,19 @@ class StoreViewController:UIViewController{
         return storeBackButton
     }()
     
-    @objc func storeBackButtonTouch(_ sender: UIButton){
-        self.dismiss(animated: true, completion: nil)
+    let MyStorageButton : UIButton = {
+       let myStorageButton = UIButton()
+        myStorageButton.translatesAutoresizingMaskIntoConstraints = false
+        myStorageButton.setImage(UIImage(named: "mystorage.png"), for: .normal)
+        myStorageButton.imageView?.contentMode = .scaleAspectFit
+        myStorageButton.addTarget(self, action: #selector(myStorageTouch), for: .touchUpInside)
+        return myStorageButton
+    }()
+    
+    @objc func myStorageTouch(_sender: UIButton){
+        let settingViewController = SettingViewController()
+        settingViewController.modalPresentationStyle = .fullScreen
+        present(settingViewController, animated: true, completion: nil)
     }
     
     let StoreBackGround : UIView = {
@@ -132,6 +146,7 @@ class StoreViewController:UIViewController{
         view.addSubview(StoreNavigationLabel)
         view.addSubview(StoreBackButton)
         view.addSubview(StoreBackLabel)
+        view.addSubview(MyStorageButton)
         
         StoreCollectionView.register(StoreViewCell.classForCoder(), forCellWithReuseIdentifier: "cellIndentifier")
         StoreCollectionView.delegate = self
@@ -141,7 +156,7 @@ class StoreViewController:UIViewController{
         getItemName()
         
         NSLayoutConstraint.activate([
-            StoreNavigationView.topAnchor.constraint(equalTo: view.topAnchor, constant: 50),
+            StoreNavigationView.topAnchor.constraint(equalTo: view.topAnchor, constant: 60),
             StoreNavigationView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             StoreNavigationView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             StoreNavigationLabel.topAnchor.constraint(equalTo: StoreNavigationView.topAnchor, constant: 10),
@@ -153,14 +168,19 @@ class StoreViewController:UIViewController{
             StoreBackLabel.centerXAnchor.constraint(equalTo: StoreBackButton.centerXAnchor),
             StoreBackLabel.centerYAnchor.constraint(equalTo: StoreBackButton.centerYAnchor),
             
+    
             StoreBackGround.topAnchor.constraint(equalTo: view.topAnchor),
             StoreBackGround.bottomAnchor.constraint(equalTo: view.bottomAnchor),
             StoreBackGround.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             StoreBackGround.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            StoreCollectionView.topAnchor.constraint(equalTo: StoreBackGround.topAnchor,constant: 100),
+            StoreCollectionView.topAnchor.constraint(equalTo: StoreBackGround.topAnchor,constant: 130),
             StoreCollectionView.bottomAnchor.constraint(equalTo: StoreBackGround.safeAreaLayoutGuide.bottomAnchor),
             StoreCollectionView.leadingAnchor.constraint(equalTo: StoreBackGround.safeAreaLayoutGuide.leadingAnchor, constant: 30),
-            StoreCollectionView.trailingAnchor.constraint(equalTo: StoreBackGround.safeAreaLayoutGuide.trailingAnchor, constant: -30)
+            StoreCollectionView.trailingAnchor.constraint(equalTo: StoreBackGround.safeAreaLayoutGuide.trailingAnchor, constant: -30),
+            
+            MyStorageButton.topAnchor.constraint(equalTo: view.topAnchor, constant: 40),
+            MyStorageButton.leadingAnchor.constraint(equalTo: StoreNavigationLabel.trailingAnchor, constant: 80),
+            MyStorageButton.trailingAnchor.constraint(equalTo: StoreNavigationView.trailingAnchor, constant: -30),
         ])
     }
 }

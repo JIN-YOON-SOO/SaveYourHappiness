@@ -41,7 +41,7 @@ class ViewController: UIViewController {
         coinLabel.backgroundColor = UIColor.white.withAlphaComponent(0)
         return coinLabel
     }()
-    
+    /* 상점페이지에서 연결하도록 변경
     let SettingButton: UIButton = {
         let settingButton = UIButton()
         settingButton.translatesAutoresizingMaskIntoConstraints = false
@@ -57,7 +57,7 @@ class ViewController: UIViewController {
         settingViewController.modalPresentationStyle = .fullScreen
         present(settingViewController, animated: true, completion: nil)
     }
-    
+    */
     // 병 이미지 추가
     let JarImageView: UIImageView = {
         let baseImageView = UIImageView()
@@ -226,7 +226,6 @@ class ViewController: UIViewController {
         view.addSubview(StoreLabel)
         view.addSubview(CoinView)
         view.addSubview(CoinLabel)
-        view.addSubview(SettingButton)
         
         // 앱 처음 실행시 UserDefaults 초기 설정
         if FirstLanch.isFirstTime() == true{
@@ -255,8 +254,6 @@ class ViewController: UIViewController {
             //ImageView.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 1.0)
             DateView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             DateView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 40),
-            SettingButton.topAnchor.constraint(equalTo: view.topAnchor, constant: 75),
-            SettingButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
             //StoreButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: UIScreen.main.bounds.width/0.5),
             //SettingButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -300),
             //DateView.bottomAnchor.constraint(equalTo: JarImageView.topAnchor),

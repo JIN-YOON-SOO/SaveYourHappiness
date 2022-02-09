@@ -201,7 +201,7 @@ class SettingViewController:UIViewController{
         SettingCollectionViewMemo.dataSource = self
         
         NSLayoutConstraint.activate([
-            SettingNavigationView.topAnchor.constraint(equalTo: view.topAnchor, constant: 50),
+            SettingNavigationView.topAnchor.constraint(equalTo: view.topAnchor, constant: 60),
             SettingNavigationView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             SettingNavigationView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             SettingLabel.topAnchor.constraint(equalTo: SettingNavigationView.topAnchor, constant: 10),

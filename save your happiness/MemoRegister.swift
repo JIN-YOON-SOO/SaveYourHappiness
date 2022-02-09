@@ -106,7 +106,7 @@ class PopUpViewController: UIViewController{
             //CancelButton.centerXAnchor.constraint(equalTo: PopUpView.centerXAnchor),
             //CancelButton.centerYAnchor.constraint(equalTo: PopUpView.centerYAnchor, constant: 200),
             MemoBackButton.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 30),
-            MemoBackButton.topAnchor.constraint(equalTo: view.topAnchor, constant: 50),
+            MemoBackButton.topAnchor.constraint(equalTo: view.topAnchor, constant: 60),
             MemoBackLabel.centerXAnchor.constraint(equalTo: MemoBackButton.centerXAnchor),
             MemoBackLabel.centerYAnchor.constraint(equalTo: MemoBackButton.centerYAnchor),
             TextInputView.centerXAnchor.constraint(equalTo: PopUpView.centerXAnchor),

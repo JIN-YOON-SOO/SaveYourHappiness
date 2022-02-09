@@ -640,7 +640,7 @@ class StatisticsViewController: UIViewController{
             TodayLabel.centerXAnchor.constraint(equalTo: TodayView.centerXAnchor),
             TodayLabel.centerYAnchor.constraint(equalTo: TodayView.centerYAnchor, constant: 10),
             StatisticsBackButton.leadingAnchor.constraint(equalTo: TodayView.leadingAnchor, constant: 30),
-            StatisticsBackButton.topAnchor.constraint(equalTo: view.topAnchor, constant: 50),
+            StatisticsBackButton.topAnchor.constraint(equalTo: view.topAnchor, constant: 60),
             StatisticsBackLabel.centerXAnchor.constraint(equalTo: StatisticsBackButton.centerXAnchor),
             StatisticsBackLabel.centerYAnchor.constraint(equalTo: StatisticsBackButton.centerYAnchor),
             StatisticsScrollView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant:  UIScreen.main.bounds.height/4),
