@@ -52,5 +52,83 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "14C7F0B4-6017-4FA4-91CA-A34135DF0284"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "save your happiness/FontView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "FontViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "14C7F0B4-6017-4FA4-91CA-A34135DF0284 - 41a4199cbf4226b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.UITableView in variable initialization expression of save_your_happiness.FontViewController.FontSettingTableView : __C.UITableView"
+                  moduleName = "save your happiness"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ryunssu/save%20your%20happiness/save%20your%20happiness/FontView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "14C7F0B4-6017-4FA4-91CA-A34135DF0284 - dac151919cf94092"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "save_your_happiness.FontViewController.FontSettingTableView.getter : __C.UITableView"
+                  moduleName = "save your happiness"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ryunssu/save%20your%20happiness/save%20your%20happiness/FontView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "14C7F0B4-6017-4FA4-91CA-A34135DF0284 - eed6e7243e16fed3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "save_your_happiness.FontViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; save_your_happiness.FontViewController"
+                  moduleName = "save your happiness"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ryunssu/save%20your%20happiness/save%20your%20happiness/FontView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "212">
+               </Location>
+               <Location
+                  uuid = "14C7F0B4-6017-4FA4-91CA-A34135DF0284 - ba9908a4fc7a23b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "save_your_happiness.FontViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;save_your_happiness.FontViewController&gt;"
+                  moduleName = "save your happiness"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ryunssu/save%20your%20happiness/save%20your%20happiness/FontView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "188">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

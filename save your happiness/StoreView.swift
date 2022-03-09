@@ -146,7 +146,6 @@ class StoreViewController:UIViewController{
         view.addSubview(StoreNavigationLabel)
         view.addSubview(StoreBackButton)
         view.addSubview(StoreBackLabel)
-        view.addSubview(MyStorageButton)
         
         StoreCollectionView.register(StoreViewCell.classForCoder(), forCellWithReuseIdentifier: "cellIndentifier")
         StoreCollectionView.delegate = self
@@ -178,9 +177,6 @@ class StoreViewController:UIViewController{
             StoreCollectionView.leadingAnchor.constraint(equalTo: StoreBackGround.safeAreaLayoutGuide.leadingAnchor, constant: 30),
             StoreCollectionView.trailingAnchor.constraint(equalTo: StoreBackGround.safeAreaLayoutGuide.trailingAnchor, constant: -30),
             
-            MyStorageButton.topAnchor.constraint(equalTo: view.topAnchor, constant: 40),
-            MyStorageButton.leadingAnchor.constraint(equalTo: StoreNavigationLabel.trailingAnchor, constant: 80),
-            MyStorageButton.trailingAnchor.constraint(equalTo: StoreNavigationView.trailingAnchor, constant: -30),
         ])
     }
 }

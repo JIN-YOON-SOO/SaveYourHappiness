@@ -7,25 +7,15 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>KCCMurukmuruk.otf</string>
+		<string>Cafe24Ohsquareair.ttf</string>
+		<string>Cafe24Oneprettynight.ttf</string>
+		<string>Cafe24Simplehae.ttf</string>
+		<string>Cafe24Ssukssuk.ttf</string>
+		<string>Cafe24Shiningstar.ttf</string>
+		<string>Cafe24SsurroundAir.ttf</string>
+		<string>Cafe24Dongdong.ttf</string>
+		<string>Cafe24Syongsyong.ttf</string>
+		<string>Cafe24Danjunghae.ttf</string>
 	</array>
-	<key>UIApplicationSceneManifest</key>
-	<dict>
-		<key>UIApplicationSupportsMultipleScenes</key>
-		<false/>
-		<key>UISceneConfigurations</key>
-		<dict>
-			<key>UIWindowSceneSessionRoleApplication</key>
-			<array>
-				<dict>
-					<key>UISceneConfigurationName</key>
-					<string>Default Configuration</string>
-					<key>UISceneDelegateClassName</key>
-					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
-					<key>UISceneStoryboardFile</key>
-					<string>Main</string>
-				</dict>
-			</array>
-		</dict>
-	</dict>
 </dict>
 </plist>

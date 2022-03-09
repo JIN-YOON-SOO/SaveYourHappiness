@@ -145,7 +145,7 @@ class SettingViewController:UIViewController{
     }()
     
     @objc func settingBackButtonTouch(_ sender: UIButton){
-        self.dismiss(animated: true, completion: nil)
+        self.dismiss(animated: false, completion: nil)
     }
     
     let SettingBackGround: UIView = {
